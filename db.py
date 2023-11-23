@@ -61,7 +61,7 @@ async def start_command(client, message):
     ambot_op = random.choice(START_PHOTOS)
     keyboard = InlineKeyboardMarkup([
         [InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-        [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ 💞", url="https://t.me/AMBOTYT"),
+        [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ 💞", url="https://t.me/sam_loveal"),
          InlineKeyboardButton("💌 ᴄʜᴀᴛ ɢʀᴏᴜᴘ", url="https://t.me/+ipTGU1mbiw8xODk1")],
         [InlineKeyboardButton(" ʜᴇʟᴘ ", callback_data="help")]
     ])
@@ -95,7 +95,7 @@ async def back_callback(client, callback_query):
     await callback_query.answer()
     keyboard = InlineKeyboardMarkup([
         [InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-        [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ 💞", url="https://t.me/AMBOTYT"),
+        [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ 💞", url="https://t.me/sam_loveal"),
          InlineKeyboardButton("💌 ᴄʜᴀᴛ ɢʀᴏᴜᴘ", url="https://t.me/+ipTGU1mbiw8xODk1")],
         [InlineKeyboardButton(" ʜᴇʟᴘ ", callback_data="help")]
     ])
@@ -119,7 +119,7 @@ async def help_command(client, message):
         [InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
         ],
         [
-            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ 💞", url="https://t.me/AMBOTYT"),
+            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ 💞", url="https://t.me/sam_loveal"),
             InlineKeyboardButton("💌 ᴄʜᴀᴛ ɢʀᴏᴜᴘ", url="https://t.me/+ipTGU1mbiw8xODk1"),
         ],
         [InlineKeyboardButton(" ʜᴇʟᴘ ", callback_data="help")]
