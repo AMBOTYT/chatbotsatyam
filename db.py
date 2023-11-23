@@ -13,13 +13,13 @@ from datetime import datetime
 # Initialize Pyrogram client
 API_ID = "25450075"
 API_HASH = "278e22b00d6dd565c837405eda49e6f2"
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "6684745377:AAEYXB3zUT-VegLlG1rqKnUdJukAPaXFUnk") 
-AMBOT = ["6204761408", ""]
-AM = ["6204761408", ""]
-BOT_USERNAME = os.environ.get("BOT_USERNAME","Tisha_machine_bot")
-BOT_NAME = os.environ.get("BOT_NAME","𝙼𝚒𝚜𝚜 𝚃𝚒𝚜𝚑𝚊 💞")
-MONGO_URL = "mongodb+srv://MissTisha:MissTisha@misstisha.eatdvt1.mongodb.net/?retryWrites=true&w=majority"
-DATABASE_NAME = "MissTisha"
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6582285434:AAHYQrmBMdaHuGXrrrcEVKoW2IJ_EG-yypc") 
+AMBOT = ["6204761408", "6109442416"]
+AM = ["6204761408", "6109442416"]
+BOT_USERNAME = os.environ.get("BOT_USERNAME","Sam_loveall_bot")
+BOT_NAME = os.environ.get("BOT_NAME","❥⃝𝐊🇺𝐊🇺❥⃝🦋")
+MONGO_URL = "mongodb+srv://SanamChatBot:RIFPJ8Y6xQRErQnx@sanamchatbot.jkr3ljr.mongodb.net/?retryWrites=true&w=majority"
+DATABASE_NAME = "Sanam"
 mongo_client = MongoClient(MONGO_URL)
 db = mongo_client[DATABASE_NAME]
 START_PHOTOS = [
