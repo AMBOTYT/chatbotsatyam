@@ -23,11 +23,11 @@ DATABASE_NAME = "Sanam"
 mongo_client = MongoClient(MONGO_URL)
 db = mongo_client[DATABASE_NAME]
 START_PHOTOS = [
-    "https://graph.org/file/be8d60272e859df723cbb.jpg",
-    "https://graph.org/file/252742c9f9dfe1c056894.jpg",
-    "https://graph.org/file/c0c800c2e4a5b72533691.jpg",
-    "https://graph.org/file/6a13cf043845b927e8cb2.jpg",
-    "https://graph.org/file/1f7906f11316e5685b112.jpg",
+    "https://telegra.ph/file/40635c92cc58b985122e6.jpg",
+    "https://graph.org/file/48c977d8f973ba0ee0b77.jpg",
+    "https://telegra.ph/file/754612a88a9478a40cecc.jpg",
+    "https://telegra.ph/file/44419735ff22233eeb5cc.jpg",
+    "https://telegra.ph/file/152a1f563347fb48c4848.jpg",
 ]
 
 bot = Client(
@@ -61,8 +61,8 @@ async def start_command(client, message):
     ambot_op = random.choice(START_PHOTOS)
     keyboard = InlineKeyboardMarkup([
         [InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-        [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ 💞", url="https://t.me/satyamnetwork"),
-         InlineKeyboardButton("💌 ᴄʜᴀᴛ ɢʀᴏᴜᴘ", url="https://t.me/+eSTzpugepEMwNDBl")],
+        [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ 💞", url="https://t.me/AMBOTYT"),
+         InlineKeyboardButton("💌 ᴄʜᴀᴛ ɢʀᴏᴜᴘ", url="https://t.me/+ipTGU1mbiw8xODk1")],
         [InlineKeyboardButton(" ʜᴇʟᴘ ", callback_data="help")]
     ])
     await message.reply_photo(
@@ -95,8 +95,8 @@ async def back_callback(client, callback_query):
     await callback_query.answer()
     keyboard = InlineKeyboardMarkup([
         [InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-        [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ 💞", url="https://t.me/satyamnetwork"),
-         InlineKeyboardButton("💌 ᴄʜᴀᴛ ɢʀᴏᴜᴘ", url="https://t.me/+eSTzpugepEMwNDBl")],
+        [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ 💞", url="https://t.me/AMBOTYT"),
+         InlineKeyboardButton("💌 ᴄʜᴀᴛ ɢʀᴏᴜᴘ", url="https://t.me/+ipTGU1mbiw8xODk1")],
         [InlineKeyboardButton(" ʜᴇʟᴘ ", callback_data="help")]
     ])
     await callback_query.message.edit_text(f"""" 
@@ -119,8 +119,8 @@ async def help_command(client, message):
         [InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
         ],
         [
-            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ 💞", url="https://t.me/satyamnetwork"),
-            InlineKeyboardButton("💌 ᴄʜᴀᴛ ɢʀᴏᴜᴘ", url="https://t.me/+eSTzpugepEMwNDBl"),
+            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ 💞", url="https://t.me/AMBOTYT"),
+            InlineKeyboardButton("💌 ᴄʜᴀᴛ ɢʀᴏᴜᴘ", url="https://t.me/+ipTGU1mbiw8xODk1"),
         ],
         [InlineKeyboardButton(" ʜᴇʟᴘ ", callback_data="help")]
     ])
